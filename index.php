@@ -18,7 +18,6 @@ spl_autoload_register('my_autoloader');
     <?php
 
     $feed = new BlogFeed("https://dev98.de/feed/");
-
     foreach ($feed->posts as $item) {
         ?>
         <div class="post">
